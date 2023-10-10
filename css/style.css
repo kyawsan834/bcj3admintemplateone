@@ -73,7 +73,9 @@ body{
 .lines1,.lines2,.lines3{
 	width: 25px;
 	height: 3px;
-	margin: 6px;
+	margin: 6px; 
+
+	transition: transform  .5s, opacity .5s;
 }
 
 .crossxs .lines1{

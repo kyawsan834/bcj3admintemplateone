@@ -15,6 +15,14 @@ $(document).ready(function(){
 
 	// end left sidebar 	
 
+  // start burger button
+
+    $(".buttons").click(function(){
+      $(this).toggleClass("crossxs");
+    });
+
+  // end burger button
+
 	// End Left Sidebar Section 
 
 
